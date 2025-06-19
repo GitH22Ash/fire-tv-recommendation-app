@@ -55,10 +55,9 @@ Prerequisites
 
 First, clone this repository to your local machine.
 
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
+git clone https://github.com/GitH22Ash/fire-tv-recommendation-app.git
+cd fire-tv-recommendation-app
 
-(Replace your-username and your-repository-name with your actual GitHub details.)
 2. Frontend Setup
 
 In a terminal, navigate to the project's root directory and install the necessary Node.js packages.
@@ -129,11 +128,12 @@ This project uses Google Firebase to simulate storing user watch history and to 
 
 5. Data and Model Setup
 
-The recommendation engine requires several data files. This repository does not include the data files themselves. You must provide your own.
+The recommendation engine requires several data files. This repository does not include the data files themselves. Sample data files are provided, but you can replace them with your own or generate them as needed.
 
     Movie Dataset: Place your primary movie dataset CSV file inside the public/ folder and ensure it is named my_movies.csv.
 
     Model Files: Place your trained model files (database.pkl, model.pkl, ratings.pkl) inside the backend/ folder.
+
 
 Running the Application
 
